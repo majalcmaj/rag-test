@@ -8,7 +8,8 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "pydantic (>=2.12.4,<3.0.0)"
+    "pydantic (>=2.12.4,<3.0.0)",
+    "ollama (>=0.6.1,<0.7.0)"
 ]
 
 
