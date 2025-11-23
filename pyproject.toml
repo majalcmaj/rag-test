@@ -1,0 +1,23 @@
+[project]
+name = "rag-test"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Michał Ciesielski",email = "majalcmaj@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic (>=2.12.4,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "black (>=25.11.0,<26.0.0)",
+    "pytest (>=9.0.1,<10.0.0)"
+]
